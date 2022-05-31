@@ -1,0 +1,20 @@
+{
+  "name": "height-weight-finder",
+  "version": "1.0.0",
+  "description": "small service that will determine the average weight and height of a given subset of Pokémon.",
+  "bin": "--no-warnings ./commands.js",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Duverger Jean-Pierre",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
