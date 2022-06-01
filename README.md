@@ -57,7 +57,15 @@ Open the project then edit it with your settings. You will need:
 - Or Node if you want the commands .
 
 ## Running the project
-to start the program you have to run $ node commands.js list|l limit offset 
+to start the program you have to run 
+``` node
+$ node commands.js list|l limit offset 
 
    -V, --version            output the version number
   -h, --help               display help for command
+```
+if you want to use it globally enter the command 
+``$ npm link``
+first and then 
+`` height-weight-finder list limit offset ``
+
