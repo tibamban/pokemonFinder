@@ -39,7 +39,7 @@ test('return not a number weight if a value is a string ', () => {
 });
 
 // test the findAverageHeight function
-test('average height for (69,130) to equal 99.5', () => {
+test('average height for (43,130) to equal 86.5', () => {
   expect(findAverageHeight([
   {
     height: 43
@@ -72,7 +72,7 @@ test('return not a number height if a value is a string ', () => {
 });
 
 // Test fetchPokemons function:
-test('the data is peanut butter', async () => {
+test('the data is parsed correctly', async () => {
   await expect(fetchPokemons('pikachu')).resolves.toEqual({
 		"height":4,
 		"name":"pikachu",
