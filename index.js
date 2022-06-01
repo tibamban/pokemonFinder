@@ -1,5 +1,6 @@
 
-
+const fetch = require('node-fetch');
+const {performance} = require('perf_hooks');
 // fetch the pokemon api for names, heights, weights and types using their names .
 async function fetchPokemons(name){
   return await fetch(`https://pokeapi.co/api/v2/pokemon/${name}/`)
